@@ -1,0 +1,25 @@
+{
+  "name": "mychat-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "proxy": "http://localhost:3001",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "devstart": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mkdirp": "^0.5.4",
+    "mongoose": "^5.11.15",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
